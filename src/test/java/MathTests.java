@@ -12,7 +12,7 @@ public class MathTests {
         String b = System.getProperty("b");
         int c = Integer.parseInt(b);
         System.out.println(a / c);
-        assertEquals(a / c, 2);
+        assertEquals(a / c, 2, "a/c should be 2");
     }
 
 }
